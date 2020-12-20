@@ -29,6 +29,9 @@
     "ecommerce-starter-e2e": {
       "tags": [],
       "implicitDependencies": ["ecommerce-starter"]
+    },
+    "ui": {
+      "tags": []
     }
   }
 }
