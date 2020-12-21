@@ -6,18 +6,17 @@ import './layout.module.scss';
 
 /* eslint-disable-next-line */
 export interface LayoutProps {
-   children?: any;
+  children?: any;
 }
 
-export function Layout(props: LayoutProps) {
-   return (
-      <div>
-         <Header />
-         <h1>Welcome to layout!</h1>
-         {props.children}
-         <Footer />
-      </div>
-   );
+export function Layout({ children }: LayoutProps) {
+  return (
+    <div>
+      <Header />
+      {children}
+      <Footer />
+    </div>
+  );
 }
 
 export default Layout;
